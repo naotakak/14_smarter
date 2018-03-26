@@ -11,7 +11,7 @@ K14 - You Are Smarter Than The President
   <head>
     <title>K14</title>
     <style>
-      .y2017 div, .y2000 div {
+      .y2017 div, .y2000 div , .year div{
         font: 10px sans serif;
         background-color: steelblue;
         text-align: right;
@@ -24,13 +24,9 @@ K14 - You Are Smarter Than The President
   </head>
 
   <body>
-    <h3>Federal Budget Data</h3>
-    Source: <a href="http://federal-budget.insidegov.com">http://federal-budget.insidegov.com</a><br>
-    <h4>Tax Breakdown for FY 2017, in trillions of dollars</h4>
-    <div class="y2017"></div>
-    <br>
-    <h4>Tax Breakdown for FY 2000, in trillions of dollars</h4>
-    <div class="y2000"></div>
+    <h4>Tax Breakdown for FY (insert FY), in trillions of dollars</h4>
+    <div class="year"></div>
+    <button type="button" id="tog">Toggle Year</button>
   </body>
   <script src="graphs.js"></script>
 </html>
